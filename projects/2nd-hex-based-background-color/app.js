@@ -7,10 +7,10 @@ function changeBgColor(){
     document.getElementById('hexValue').innerText = color;
 }
 function getColor(){
-    var color = "#";
+    var color = "#";//#7645CD
     var letters = "0123456789ABCDEF";
     for(var i=0; i<6; i++){
-        color += letters[Math.floor((Math.random()*16))];
+        color += letters[Math.floor((Math.random()*16))];//letters[i]
         console.log("color value inside for loop is: "+color);
     }
     console.log("color value is: "+color);

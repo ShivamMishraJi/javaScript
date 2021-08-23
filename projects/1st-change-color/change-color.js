@@ -2,7 +2,6 @@ var buttonClick = document.getElementById("clickMeButton");
 buttonClick.addEventListener("click", changeBodyColor);
 
 function changeBodyColor() {
-//   console.log("inside changeBodyColor method");
   var color = getRandomColor();
   document.body.style.background = color;
 }
