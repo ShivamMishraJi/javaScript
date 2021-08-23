@@ -71,3 +71,4 @@ const startGame = () => {
 
 startGameBtn.addEventListener('click',startGame);
 
+//Rest parameters/Rest Operator

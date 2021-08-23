@@ -1,0 +1,28 @@
+body{
+  margin: 0%;
+  padding: 0%;
+}
+
+.main-container{
+    width: 100%;
+    height: 50vh;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+  }
+  #leftBtn{
+    margin-top: 15vh;
+    margin-left: 0%;
+  }
+
+  #leftBtn{
+    margin-top: 15vh;
+    margin-left: 0%;
+  }
+  .main-container img{
+    width: 100%;
+    height: 100%;
+    
+
+  }
