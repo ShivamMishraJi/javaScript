@@ -4,7 +4,7 @@
 }
 table{
     margin: auto;
-}
+ }
 input{
     color: black;
     font-size: 20px;
@@ -13,6 +13,7 @@ input{
     width: 320px;
     height: auto;
 }
+
 button{
     background-color:green ;
     font-size: 30px;
