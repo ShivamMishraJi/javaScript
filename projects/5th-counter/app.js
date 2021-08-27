@@ -1,24 +1,39 @@
-const leftBtn = document.getElementById("leftBtn");
-const rightBtn = document.getElementById("rightBtn");
-const imgSlider = document.getElementById("imgSlider");
+const lowerCntBtn = document.getElementById('lowerCount');
+const addCntBtn = document.getElementById('addCount');
 
-const imgSrc = [
-  "https://source.unsplash.com/1600x900/?nature,technology",
-  "https://source.unsplash.com/1600x900/?nature,apple",
-  "https://source.unsplash.com/1600x900/?nature,google",
-  "https://source.unsplash.com/1600x900/?nature,stevejobs",
-];
+lowerCntBtn.addEventListener('click',lowerCount);
+addCntBtn.addEventListener('click',addCount);
 
 let i = 0;
-
-leftBtn.addEventListener("click", changeImg);
-rightBtn.addEventListener("click", changeImg);
-
-function changeImg() {
-    if(i==4){
-        i=0;
+function lowerCount(){
+    i--;
+    if(i<0){
+        document.getElementById('counterValue').style.color = 'red';    
     }
-    console.log(i);
-  imgSlider.src = imgSrc[i];
-  i++;
+    document.getElementById('counterValue').innerText = i;
+
 }
+
+function addCount(){
+    i++;
+    if(i>=0){
+        document.getElementById('counterValue').style.color = 'green';    
+    }
+    document.getElementById('counterValue').innerText = i;
+}
+
+
+
+
+
+
+
+
+
+
+/* <div class="main-container">
+        <h1>Counter</h1>
+        <h2 id="counterValue">0</h2>
+        <button id="lowerCount">Lower Count</button>
+        <button id="addCount">Add Count</button>
+    </div> */
