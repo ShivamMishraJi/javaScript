@@ -1,0 +1,33 @@
+body{
+    background-image: url("assets/allison-griffith-Q76DPRQ3Ix0-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    /* opacity: 0.2; */
+}
+.main-container{
+    width: 50%;
+    height: auto;
+    margin:auto auto;
+    text-align:center;
+}
+.review-cont{
+    width: 100%;
+    height: 40vh;
+    /* background: transparent !important; */
+    border: 2px dotted wheat;
+    display: inline-block;
+    margin-top: 10%;
+}
+img{
+    width: 100px;
+    height: 100px;
+    margin-top: -8%;
+    border-radius: 50%;
+}
+.checked{
+    color: orange;
+}
+p{
+    word-wrap:normal ;
+}

@@ -5,7 +5,7 @@ const buttons = document.querySelectorAll("button");
 let btnValue = "";
 let result;
 for (const btn of buttons) {
-  btn.addEventListener("click", function (event) {
+  btn.addEventListener("click", function () {
     //to 
     if (btn.innerText != "=") {
       if (btn.innerText == "c") {
