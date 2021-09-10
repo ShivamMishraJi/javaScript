@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Favorite Movie</title>
+  </head>
+  <body>
+    <!-- header Section -->
+    <header>
+      <h1>Favorite Movies</h1>
+      <button>Add Movie</button>
+    </header>
+
+    <!-- Add Movie Modal & backDrop -->
+    <div class="backDrop"></div>
+    <div class="modal card" id="add-movie-modal">
+      <div class="modal-content">
+        <label for="movie-title">Movie Title</label>
+        <input type="text" name="movie-title" id="movie-title">
+
+        <label for="movie-url">Movie URL</label>
+        <input type="text" name="movie-url" id="movie-url">
+
+        <label for="movie-rating">Movie Rating</label>
+        <input type="number" step=1 min=1 max=5 name="movie-rating" id="movie-rating">
+      </div>
+    </div>
+  
+  
+  </body>
+</html>
