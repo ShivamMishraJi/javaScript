@@ -1,9 +1,10 @@
-var buttonClick = document.getElementById("clickMeButton");
+let buttonClick = document.getElementById("clickMeButton");
 buttonClick.addEventListener("click", changeBodyColor);
 
 function changeBodyColor() {
-  var color = getRandomColor();
+  let color = getRandomColor();
   document.body.style.background = color;
+  // buttonClick.style.background = color;
 }
 
 // Math.random() returns a random number between 0 (inclusive),  and 1 (exclusive):

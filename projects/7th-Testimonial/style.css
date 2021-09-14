@@ -19,12 +19,26 @@ body{
     display: inline-block;
     margin-top: 10%;
 }
-img{
+#imgTest{
     width: 100px;
     height: 100px;
     margin-top: -8%;
     border-radius: 50%;
 }
+#imgTest:hover{
+    background: chartreuse;
+    color: red;
+    background-color: green;
+}
+/* adjacent sibling operator */
+#imgTest:hover + #clientName {
+    color: red;
+}
+/* general sibling operator */
+#imgTest:hover ~ #quote {
+    color: red;
+}
+
 .checked{
     color: orange;
 }
