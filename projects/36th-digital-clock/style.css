@@ -1,0 +1,10 @@
+.container{
+    margin: auto auto;
+    border: 2px dotted green;
+    width: 40%;
+    text-align: center;
+}
+#banner{
+    color: darkred;
+    
+}

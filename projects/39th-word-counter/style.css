@@ -1,0 +1,32 @@
+body{
+    background-color:#FA8072;
+    text-align: center;
+}
+
+.container{
+    border: 2px dotted green;
+}
+input{
+    margin: auto auto;
+    width: 350px;
+    height: 40px;
+    display: block;
+    text-align: center;
+}
+
+#output{
+    width: 100px;
+    background: green;
+    margin: auto auto;
+
+}
+
+#btn{
+    width: 300px;
+    height: 60px;
+    color: #fff;
+    background-color:gray;
+    border-style: none;
+    border-radius: 15px;
+    margin-top: 10px;
+}
