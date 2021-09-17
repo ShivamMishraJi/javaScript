@@ -16,8 +16,17 @@ form.addEventListener('submit', function(e){
     } else {
     //calculate BMI
     const bmi = (weight / ((height*height)/10000)).toFixed(2);
+    //toFixed() Convert a number into a string, rounding the number to keep only two decimals:
+    
     //display the results
-    results.innerHTML = `<span>${bmi}</span>`
+    if(parseInt(bmi)<=18.6){
+        results.innerHTML = bmi+' - Under Weight';
+    }else if(24.9 <= parseInt(bmi)<=18.6 ){
+        results.innerHTML = bmi+' - Normal Weight';
+    }else{
+        results.innerHTML = bmi+' - Over Weight';
+    }
+    // results.innerHTML = bmi;
     }
     
     
