@@ -1,0 +1,22 @@
+.main-container{
+    margin: auto;
+    width: 50%;
+    height: auto;
+    border: 3px solid rgb(81, 87, 81);
+    padding: 10px;
+    text-align: center;
+    margin-top: 40vh;
+    padding: 10px;
+  
+  }
+  .main-container #input-text{
+    width: 40%;
+    padding: 0px;
+    /* margin: 5px; */
+  }
+  
+  .main-container #input-text{
+    font-size: 24px;
+    padding: 14px 40px;
+    margin: 5px;
+  }
