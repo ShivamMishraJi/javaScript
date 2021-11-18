@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="">
+        <label for="">Name</label><input type="text" id="fName" onfocus="focusFunction(this)"><br><br>
+        <label for="">class</label><input type="text" id="clName" onfocus="focusFunction(this)"><br><br>
+
+        <label for="">Country</label>
+        <select name="" id="">
+            <option value="">India</option>
+            <option value="">pak</option>
+            <option value="">bangladesh</option>
+            <option value="">nepal</option>
+            <option value="">bhutan</option>
+        </select>
+        <label for="">City</label>
+        <select name="" id="">
+            <option value="">Mumbai</option>
+            <option value="">Banglore</option>
+            <option value="">Delhi</option>
+            <option value="">pak</option>
+            <option value="">bangladesh</option>
+            <option value="">nepal</option>
+            <option value="">bhutan</option>
+        </select>
+
+    </form>
+
+    <script>
+        function focusFunction(element){
+           element.style.backgroundColor = "green";
+            // document.getElementById("clName").style.backgroundColor = "green";
+        }
+    </script>
+   
+</body>
+</html>
